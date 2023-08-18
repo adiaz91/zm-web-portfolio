@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/error.css}"/>
+    <link rel="icon" href="1" />
+</head>
+<body>
+
+<div class="message">
+    <h1 th:text="${code}"></h1>
+    <h3 th:text="${message}"></h3>
+    <br/>
+    <a href="/">Back</a>
+</div>
+</body>
+</html>

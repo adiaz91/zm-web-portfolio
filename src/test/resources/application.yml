@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: portfolio-app
+twitter:
+  config:
+    auth-uri: https://api.twitter.com/oauth2/token?grant_type=client_credentials
+    users-uri: https://api.twitter.com/2/users/by/username/:username
+    time-line-uri: https://api.twitter.com/2/users/:id/tweets
+    api-key: TWITTER_API_KEY
+    api-secret-key: TWITTER_SECRET_API_KEY
+    access-token: TWITTER_ACCESS_TOKEN
+    access-token-secret: TWITTER_ACCESS_TOKEN_SECRET
