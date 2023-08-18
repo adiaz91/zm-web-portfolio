@@ -17,7 +17,7 @@ Before you begin, make sure you have the following installed on your system:
 
 # Run
 
-1. Clone this repository to your local machine using git clone <git@github.com:adiaz91/zm-web-portfolio.git>
+1. Clone this repository to your local machine using git clone `git@github.com:adiaz91/zm-web-portfolio.git`
 
 2. Open the project with your preferred  IDE
 
